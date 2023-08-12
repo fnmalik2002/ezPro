@@ -61,9 +61,9 @@ def get_config(file):
     for section in cfg:
         print(section)
     ip = cfg["database"]['ip']
-    user = 'tarpon'  # cfg["database"]['user']
-    password = 'eBay'  # cfg["database"]['passwd']
-    db = 'bass2'  # cfg["database"]['db']
+    user = 'xxxx'  # cfg["database"]['user']
+    password = 'xxxx'  # cfg["database"]['passwd']
+    db = 'xxxx'  # cfg["database"]['db']
     bins = cfg["other"]['bins']
     to_email = cfg["other"]['to_email']
     out = {
